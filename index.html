@@ -1,1 +1,67 @@
-hi
+<!DOCTYPE html>
+<html>
+<head>
+<title>CalPal</title>
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<style>
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  padding-top: 5vh;
+}
+#hero {
+  margin-left: 45px;
+}
+
+#content {
+  padding-top: 50px;
+}
+
+#about {
+  color: lightgray;
+  position: fixed;
+  bottom: 5px;
+
+  text-align: center;
+  width: 100%;
+}
+
+#download {
+  padding-top: 50px;
+}
+#download-img {
+  border-radius: 10px;
+  width: 75px;
+  /*height: 100px;*/
+}
+#about a {
+  color: gray;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="text-center">
+      <img src="img/hero.svg" alt="CalPal hero" width="300" id="hero">
+      <h1>CalPal</h1>
+    </div>
+  </div>
+  <div class="row col-md-6 col-md-offset-3" id="content">
+    <p>CalPal is an iOS application that uses computer vision and optical character recognition to detect details from a photo of an event poster. It then autopopulates a calendar event, making it easier than ever to add events you are interested in.</p>
+    <div id="download" class="text-center">
+      <a href="#" target="_blank">
+        <img id="download-img" src="img/download.png">
+        <h5>DOWNLOAD</h5>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="" id="about">
+  <small>CalPal was made at <a href="http://pennapps.com/" target="_blank">Penn Apps XIV (Fall 2016)</a> by <a href="https://github.com/chail/" target="_blank">Lucy Chai</a>, <a href="https://github.com/piakochar" target="_blank">Pia Kochar</a>, <a href="https://eyli.me/" target="_blank">Eric Li</a>, and <a href="https://github.com/kellyktan" target="_blank">Kelly Tan</a>.</small>
+</div>
+</body>
+</html>
